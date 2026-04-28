@@ -21,11 +21,13 @@ e.preventDefault();
 workItem.classList.toggle("open");
 });
 
+/* close dropdown on outside click */
 
-
-
-
-
+document.addEventListener("click",(e)=>{
+if(!workItem.contains(e.target)){
+workItem.classList.remove("open");
+}
+});
 
 
 /* ================= ALBUM IMAGE GENERATOR ================= */
@@ -87,7 +89,6 @@ btn.classList.add("active");
 const album=document.getElementById(target);
 album.classList.add("active");
 
-
 /* generate images only when opened */
 
 const data=albumData[target];
@@ -98,13 +99,11 @@ createAlbum(target,data.path,data.total);
 });
 
 
-
-
-
-
 /* ================= SCROLL TO TOP ================= */
 
 const scrollBtn=document.getElementById("scrollTopBtn");
+
+if(scrollBtn){
 
 window.addEventListener("scroll",()=>{
 
@@ -124,3 +123,5 @@ behavior:"smooth"
 });
 
 });
+
+}
