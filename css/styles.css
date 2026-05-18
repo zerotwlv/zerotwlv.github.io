@@ -477,7 +477,7 @@ flex:100%;
 	text-shadow:-1px 0 0.5px rgba(0,255,255,0.2), 1px 0 0.5px rgba(255,0,0,0.2);
 	padding-bottom:9px;
 	font-size:clamp(9px, 2.8vw, 11px);
-	filter: blur(none);
+	filter: none;
 	
 }
 
