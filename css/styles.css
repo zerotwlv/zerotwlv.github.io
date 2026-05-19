@@ -316,10 +316,10 @@ transition:opacity 0.4s ease 0.15s;
 color:transparent;
 text-align:center;
 text-shadow:
--1.5px 0 1px rgba(0, 0, 255, 1),
--0.5px 0 0.5px rgba(0, 150, 255, 0.8),
-0.5px 0 0.5px rgba(255, 80, 0, 0.8),
-1.5px 0 1px rgba(200, 0, 0, 1);
+-2px 0 1px rgba(0, 0, 255, 1),
+-1px 0 0.5px rgba(0, 150, 255, 1),
+1px 0 0.5px rgba(255, 80, 0, 1),
+2px 0 1px rgba(200, 0, 0, 1);
 filter:blur(0.3px);
 }
 
