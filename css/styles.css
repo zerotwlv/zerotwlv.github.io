@@ -315,8 +315,13 @@ opacity:0;
 transition:opacity 0.4s ease 0.15s;
 color:white;
 text-align:center;
-text-shadow: -1px 0 0.5px rgba(0, 255, 255, 0.3), 1px 0 0.5px rgba(255, 0, 0, 0.3);
-filter: blur(0.4px);
+  -3px 0 2px rgba(0, 100, 255, 0.6),
+  -2px 0 1px rgba(0, 200, 255, 0.5),
+  -1px 0 1px rgba(100, 255, 255, 0.3),
+  1px 0 1px rgba(255, 255, 0, 0.3),
+  2px 0 1px rgba(255, 100, 0, 0.5),
+  3px 0 2px rgba(255, 0, 0, 0.6);
+	filter: blur(0.4px);
 }
 
 .project:hover img{
