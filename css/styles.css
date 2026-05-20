@@ -327,8 +327,8 @@ text-shadow:
 -0.3px 0 0.5px rgba(0, 150, 255, 1),
 0.3px 0 0.5px rgba(255, 80, 0, 1),
 0.8px 0 1px rgba(220, 40, 0, 0.9),
-1px 0 1px rgba(200, 0, 0, 0.9);*/
-filter:blur(0.4px);
+1px 0 1px rgba(200, 0, 0, 0.9);
+filter:blur(0.4px);*/
 }
 
 .project-title::after{
