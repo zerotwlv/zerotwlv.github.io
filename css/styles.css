@@ -339,7 +339,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 color:white;
-filter:blur(0.1px);
+filter:none;
 letter-spacing:0.8em;
 text-align:center;
 }
