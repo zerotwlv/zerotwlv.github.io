@@ -58,10 +58,10 @@ album.dataset.loaded="true";
 /* ================= ALBUM CONFIG ================= */
 
 const albumData={
-album1:{path:"stills/a1/sfaif",total:9},
-album2:{path:"stills/a2/cartographer",total:16},
-album3:{path:"stills/a3/noctua",total:29},
-album4:{path:"stills/a4/afk",total:6}
+album1:{path:"/stills/a1/sfaif",total:9},
+album2:{path:"/stills/a2/cartographer",total:16},
+album3:{path:"/stills/a3/noctua",total:29},
+album4:{path:"/stills/a4/afk",total:6}
 };
 
 
