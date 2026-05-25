@@ -473,6 +473,19 @@ height:100%;
 }
 
 
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icons img {
+  height: 2em;
+  display: block;
+  width: auto;
+}
+
+
 /* ================= MOBILE ================= */
 
 @media (max-width:900px){
