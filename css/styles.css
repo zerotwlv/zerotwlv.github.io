@@ -522,7 +522,7 @@ flex:100%;
 .project-title {
 	opacity:1;
 	align-items:flex-end;
-	color:#b7b7b7;
+	color:transparent;
 	text-shadow:
 	-2px 0 1px rgba(0, 0, 255, 0.1),
 	-0.6px 0 1.3px rgba(0, 255, 255, 1),
@@ -530,7 +530,6 @@ flex:100%;
 	2px 0 1px rgba(255, 0, 0, 0.2);
 	padding-bottom:9px;
 	font-size:clamp(9px, 2.8vw, 11px);
-	
 }
 
 
