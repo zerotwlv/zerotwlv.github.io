@@ -70,9 +70,14 @@ text-decoration:none;
 transition:opacity 0.15s ease;
 }
 
-a:hover:not(.stills-arrow){
+a:hover:not(.stills-arrow):not(.project){
 text-decoration:line-through;
 opacity:0.6;
+}
+
+.project,
+.project-title{
+text-decoration:none;
 }
 
 /* ================= DROPDOWN ================= */
@@ -555,6 +560,14 @@ flex:100%;
 	filter: none;
 	letter-spacing: 0.8em;
 	text-align: center;
+}
+
+.project{
+margin-bottom:30px;
+}
+
+.video-grid{
+gap:30px;
 }
 
 .video-grid .project-title{
