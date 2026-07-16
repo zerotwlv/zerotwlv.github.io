@@ -519,6 +519,11 @@ flex-direction:column;
 flex:100%;
 }
 
+.project{
+	aspect-ratio:auto;
+	overflow:visible;
+}
+
 .project img{
 	aspect-ratio:2.4/1;
 	height:auto;
